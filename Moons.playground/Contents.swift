@@ -41,3 +41,9 @@ planetDescription(planet: planet, numberOfMoons: moons)
 planet = "Mars"
 moons = 2
 planetDescription(planet: planet, numberOfMoons: moons)
+
+func moonsOfJupiter(planet:String, moons:Int){
+    print("There are \(moons) moons of \(planet).")
+}
+
+moonsOfJupiter(planet: planet, moons: moons)
